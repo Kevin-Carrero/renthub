@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">RentHub</string>
+    <string name="title_activity_inicio">Inicio</string>
+    <string name="content_description_media">Automovil de transmision mecanica de 5 pasajeros, 2 equipajes grandes 1 de mano, 5 puertas</string>
+    <string name="title">Spark GT</string>
+    <string name="descripcion">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut congue ipsum. Etiam viverra non sem eu volutpat. Suspendisse a nibh in tortor dictum finibus. Etiam maximus et felis id faucibus. Morbi ultricies viverra quam vel consectetur. Fusce pellentesque massa neque, eget hendrerit diam condimentum at. Etiam elementum scelerisque lectus. Aliquam nunc est, placerat at felis nec, aliquet laoreet leo. Vivamus ullamcorper id ligula ultricies varius.\n\nCras non efficitur magna, quis dignissim ligula. Praesent ut volutpat magna, at ultricies diam. Duis varius, dui aliquet scelerisque porta, lectus felis facilisis ex, a venenatis augue lacus in sapien. Donec justo dui, auctor faucibus ex sed, vestibulum dapibus purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In nisl velit, lobortis vel arcu sed, efficitur convallis arcu. Nulla finibus, metus non posuere dapibus, urna lacus ullamcorper justo, a blandit felis elit in sapien. Donec arcu nunc, mollis at ligula at, gravida laoreet arcu. Etiam eu orci nec libero venenatis consequat.</string>
+    <string name="Descripción">Tesla Model 3 es un automóvil eléctrico sedán de cinco plazas fabricado por Tesla. La presentación mundial se hizo el 31 de marzo de 2016 y las primeras 30 entregas se efectuaron el 28 de julio de 2017.1​</string>
+    <string name="tesla_m3">TESLA MODEL 3 2023</string>
+    <string name="img_tesla">img tesla</string>
+    <string name="fab_content_desc">agregar</string>
+    <string name="title_activity_fragment1">Fragment1</string>
+    <string name="title_activity_my_adapter">MyAdapter</string>
+    <string name="title_activity_vista">Vista</string>
 </resources>

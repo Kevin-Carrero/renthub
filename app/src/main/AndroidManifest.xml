@@ -12,12 +12,38 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RentHub"
         tools:targetApi="31">
-        <activity android:name=".MainActivity"
-                  android:exported="true">>
+        <activity
+            android:name=".Vista"
+            android:exported="false"
+            android:label="@string/title_activity_vista"
+            android:theme="@style/Theme.RentHub" />
+        <activity
+            android:name=".MyAdapter"
+            android:exported="false"
+            android:label="@string/title_activity_my_adapter"
+            android:theme="@style/Theme.RentHub" />
+        <activity
+            android:name=".Fragment1"
+            android:exported="false"
+            android:label="@string/title_activity_fragment1"
+            android:theme="@style/Theme.RentHub" />
+        <activity
+            android:name=".Inicio"
+            android:exported="false"
+            android:label="@string/title_activity_inicio"
+            android:theme="@style/Theme.RentHub" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".RegistrarUsuario"
+            android:exported="false" />
     </application>
+
 </manifest>

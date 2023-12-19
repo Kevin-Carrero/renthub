@@ -4,79 +4,55 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/degradado">
+
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center">
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp">
+
         <ImageView
-            android:layout_width="512px"
-            android:layout_height="512px"
-            android:src="@drawable/ic_launcher_background"/>
+            android:layout_width="1024px"
+            android:layout_height="1024px"
+            android:layout_centerInParent="true"
+            android:src="@drawable/logo" />
     </RelativeLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
 
         <com.google.android.material.textfield.TextInputLayout
-
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Correo electronico">
-
+            android:hint="Correo electrónico"
+            android:layout_marginBottom="8dp">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/correo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
-
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Nombre">
-
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/nombre"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Contraseña"
-            app:endIconMode="password_toggle">
+            app:endIconMode="password_toggle"
+            android:layout_marginBottom="8dp">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/contraseña"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPassword" />
-
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Reescribe la contraseña"
-            app:endIconMode="password_toggle">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/reecontraseña"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textPassword" />
-
         </com.google.android.material.textfield.TextInputLayout>
 
         <LinearLayout
@@ -91,7 +67,7 @@
         </LinearLayout>
 
         <Button
-            android:id="@+id/regusuariobtn"
+            android:id="@+id/registrarbtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Registrate" />
