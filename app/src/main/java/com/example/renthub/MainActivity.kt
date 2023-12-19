@@ -15,6 +15,7 @@ import com.google.firebase.ktx.Firebase
 
 class MainActivity : AppCompatActivity() {
     lateinit var registrate: TextView
+    lateinit var reccontraseña: TextView
     lateinit var correo: TextInputEditText
     lateinit var contraseña: TextInputEditText
     lateinit var iniciobtn: Button
@@ -30,17 +31,26 @@ class MainActivity : AppCompatActivity() {
         contraseña = findViewById(R.id.contraseña)
         iniciobtn = findViewById(R.id.iniciobtn)
         registrate = findViewById(R.id.registrate)
+        reccontraseña = findViewById(R.id.reccontraseña)
         auth = Firebase.auth
 
         registrate.setOnClickListener {
             registrar()
+        }
+        reccontraseña.setOnClickListener{
+            recuperar()
         }
         iniciobtn.setOnClickListener{
             iniciobtn.setOnClickListener {
                 signIn(correo.text.toString(), contraseña.text.toString())
             }
         }
+        reccontraseña
+    }
 
+    private fun recuperar() {
+        val intent = Intent(this,CambiarContraseña::class.java)
+        startActivity(intent)
     }
 
     public override fun onStart() {
